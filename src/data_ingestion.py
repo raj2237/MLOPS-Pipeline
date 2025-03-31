@@ -88,7 +88,7 @@ def main():
     try:
        
         
-        test_size = 0.2
+        test_size = 0.21
         data_path = 'https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv'
         df = load_data(data_url=data_path)
         final_df = preprocess_data(df)
