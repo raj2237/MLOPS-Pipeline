@@ -128,7 +128,7 @@ def main():
         #     live.log_metric('recall', recall_score(y_test, y_test))
 
         #     live.log_params(params)
-        
+
         
         save_metrics(metrics, 'reports/metrics.json')
     except Exception as e:
